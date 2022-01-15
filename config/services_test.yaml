@@ -1,0 +1,16 @@
+services:
+    _defaults:
+        public: true
+
+    test.api_platform.metadata.resource.metadata_factory:
+        alias: api_platform.metadata.resource.metadata_factory
+        public: true
+    test.api_platform.filter_locator:
+        alias: api_platform.filter_locator
+        public: true
+    test.api_platform.iri_converter:
+        alias: api_platform.iri_converter
+        public: true
+    test.api_platform.identifiers_extractor:
+        alias: api_platform.identifiers_extractor
+        public: true

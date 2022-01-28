@@ -15,3 +15,9 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Entity'
                 prefix: 'App\Entity'
                 alias: App
+            MetaclassFilterBundle:
+                is_bundle: true
+                type: annotation
+                dir: '../tests/Entity'
+                prefix: 'Metaclass\FilterBundle\Entity'
+                alias: MetaclassFilterBundle

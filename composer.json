@@ -17,7 +17,7 @@
         "doctrine/doctrine-bundle": "^2.5",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.10",
-        "metaclass-nl/filter-bundle": "dev-feature/symfony6",
+        "metaclass-nl/filter-bundle": "dev-master",
         "symfony/console": "6.0.*",
         "symfony/dotenv": "6.0.*",
         "symfony/flex": "^2",

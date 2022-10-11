@@ -22,7 +22,7 @@
             <directory>tests</directory>
         </testsuite>
         <testsuite name="FilterBundle Test Suite">
-            <directory>vendor/metaclass-nl/filter-bundle/tests</directory>
+            <directory>bundles/filter-bundle/tests</directory>
         </testsuite>
     </testsuites>
 

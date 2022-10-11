@@ -3,6 +3,7 @@
 /docker-compose.override.yml
 
 /.idea
+/Klad.txt
 
 ###> symfony/framework-bundle ###
 /.env.local
@@ -13,6 +14,9 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+###> local bundles ###
+/bundles
+###< local bundles ###
 
 ###> symfony/phpunit-bridge ###
 .phpunit.result.cache

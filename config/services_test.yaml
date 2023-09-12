@@ -2,8 +2,8 @@ services:
     _defaults:
         public: true
 
-    test.api_platform.metadata.resource.metadata_factory:
-        alias: api_platform.metadata.resource.metadata_factory
+    test.api_platform.metadata.resource.metadata_collection_factory:
+        alias: api_platform.metadata.resource.metadata_collection_factory
         public: true
     test.api_platform.filter_locator:
         alias: api_platform.filter_locator

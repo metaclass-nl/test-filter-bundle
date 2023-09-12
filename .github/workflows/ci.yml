@@ -6,11 +6,12 @@
 name: Symfony
 
 on:
-    push:
-        branches: [ "main" ]
+#    push:
+#        branches: [ "main" ]
     pull_request:
         branches: [ "main" ]
-
+    schedule:
+        - cron: '42 3 * * 0'
 permissions:
     contents: read
 

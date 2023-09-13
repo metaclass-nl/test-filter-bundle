@@ -48,4 +48,14 @@
         <extension class="Symfony\Component\Panther\ServerExtension" />
     </extensions>
     -->
+    <logging>
+        <testdoxHtml outputFile="var/log/phpunit/testdox.html"/>
+        <testdoxText outputFile="var/log/phpunit/testdox.txt"/>
+        <text outputFile="var/log/phpunit/logfile.txt"/>
+        <!--
+        <junit outputFile="var/log/junit.xml"/>
+        <teamcity outputFile="var/log/teamcity.txt"/>
+        <testdoxXml outputFile="var/log/testdox.xml"/>
+        -->
+    </logging>
 </phpunit>

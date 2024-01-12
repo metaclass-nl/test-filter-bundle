@@ -17,7 +17,8 @@ doctrine:
                 alias: App
             MetaclassFilterBundle:
                 is_bundle: true
-                type: annotation
+                type: attribute
                 dir: '../tests/Entity'
                 prefix: 'Metaclass\FilterBundle\Entity'
                 alias: MetaclassFilterBundle
+        enable_lazy_ghost_objects: true #warning: slows down Symfony <6.4

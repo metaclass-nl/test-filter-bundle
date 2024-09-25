@@ -22,3 +22,6 @@ doctrine:
                 prefix: 'Metaclass\FilterBundle\Entity'
                 alias: MetaclassFilterBundle
         enable_lazy_ghost_objects: true #warning: slows down Symfony <6.4
+        controller_resolver:
+            enabled: false
+            auto_mapping: false

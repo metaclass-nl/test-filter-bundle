@@ -12,8 +12,6 @@ api_platform:
         default_ide: false
         graphiql:
             enabled: false
-        graphql_playground:
-            enabled: false
     formats:
         jsonld: [ 'application/ld+json' ]
     docs_formats:

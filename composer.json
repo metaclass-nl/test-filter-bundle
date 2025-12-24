@@ -27,7 +27,8 @@
         "symfony/runtime": "^6.1 || ^7.0",
         "symfony/string": "^6.1 || ^7.0",
         "symfony/twig-bundle": "^6.1 || ^7.0",
-        "symfony/yaml": "^6.1 || ^7.0"
+        "symfony/yaml": "^6.1 || ^7.0",
+        "symfony/validator": "^6.1 || ^7.0"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "^7.0"
@@ -42,7 +43,10 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "audit" : {
+            "block-insecure": false
+        }
     },
     "autoload": {
         "psr-4": {
